@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> Hybl Media </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header class="page-center">
+            <div id="logo">
+                <a href="#forside"><img src="img/logo1.0.png"></a>
+            </div>
+            <div id="burgerMenu">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+
+            <nav id="menuPunkter">
+                <ul class="menuLinks">
+                    <li class="menuLink1"><a href="#forside"> Forside </a></li>
+                    <li class="menuLink2"><a href="#projekter"> Projekter </a></li>
+                    <li class="menuLink3"><a href="#hvorforos"> Hvorfor os? </a></li>
+                    <li class="menuLink4"><a href="#kontaktinfo"> Kontakt </a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <section id="hero" class="page-center">
+                <div class="tekstboks">
+                    <div class="headerDiv">
+                        <h1 class="hybl">Hybl</h1>
+                        <h2> Digitalt designstudio </h2>
+                    </div>
+                    <div class="hero-tagline">
+                        <h2>Design og udvikling af skræddersyede</h2>
+                        <h2 class="typtyp"><span class="typing"></span></h2>
+                        <a class="button button1" href="#buchwald">Projekter</a>
+                    </div>
+                    <div class="arrowContainer">
+                        <a href="#buchwald">
+                            <span class="leftArrow"></span>
+                            <span class="rightArrow"></span>
+                        </a>
+                    </div>
+            </section>
+            <section class="cases">
+                <article class="case page-center" id="buchwald">
+                    <div class="case-header">
+                        <div>
+                            <h2>Buchwald's Kafferisteri</h2>
+                            <span></span>
+                        </div>
+                        <p>Webshop</p>
+                    </div>
+                    <picture>
+                        <img src="img/buchwald-iphone.png" alt="" />
+                    </picture>
+                    <div class="case-link">
+                        <a href="">Læs mere <span></span></a>
+                    </div>
+                </article>
+                <article class="case page-center" id="angsted">
+                    <div class="case-header">
+                        <div>
+                            <h2>Albert Angsted</h2>
+                            <span></span>
+                        </div>
+                        <p>Portfolio</p>
+                    </div>
+                    <picture>
+                        <img src="img/angsted-iphone.png" alt="" />
+                    </picture>
+                    <div class="case-link">
+                        <a href="">Læs mere <span></span></a>
+                    </div>
+                </article>
+                <template>
+                    <article class="case page-center" id="angsted">
+                        <div class="case-header">
+                            <div>
+                                <h2>Albert Angsted</h2>
+                                <span></span>
+                            </div>
+                            <p>Portfolio</p>
+                        </div>
+                        <picture>
+                            <img src="img/buchwald-iphone.png" alt="" />
+                        </picture>
+                        <div class="case-link">
+                            <a href="">Læs mere <span></span></a>
+                        </div>
+                    </article>
+                </template>
+            </section>
+
+        </main>
+    </div>
+    <script src="js/menu.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script type="text/javascript">
+        var typed = new Typed('.typing', {
+            strings: ["hjemmesider.", "webshops.", "animationer.", "videoredigering."],
+            loop: true,
+            typeSpeed: 40,
+            backSpeed: 30,
+            backDelay: 2000,
+        });
+    </script>
+</body>
+
+</html>

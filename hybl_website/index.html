@@ -5,25 +5,44 @@
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        
     </head>
     <body>
         <header>
             <nav>
-
-
             </nav>
         </header>
 
         <main>
             <section id="hero"> 
-                <h1>Hybl</h1>
-                <h2>Digitalt Design</h2>
+                    <div class="tekstboks">
+                        <div>
+                                <h1 class="hybl">Hybl</h1>
+                        </div>
+                        <div class="hero-tagline">
+                            <h1>Vi designer og udvikler skræddersyede</h1>
+                            <h1 class="typtyp"><span class="typing"></span></h1>
+                            <a class="knap" href="">Projekter</a>
+                        </div>
+                    <div class="pilboks">
+                            <div class="pil">
+                            </div>
             </section>
 
             <section id="cases">
-
             </section>
         </main>
-
+    </div>
+</div>
+<script src="typed.min.js"></script>
+<script type="text/javascript">
+    var typed = new Typed('.typing', {
+        strings: ["hjemmesider", "webshops", "animationer", "videoredigering"],
+        loop: true,
+        typeSpeed: 40,
+        backSpeed: 30,
+        backDelay: 2000,
+    });
+</script>
     </body>
 </html>

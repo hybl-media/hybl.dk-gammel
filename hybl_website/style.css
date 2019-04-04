@@ -1,0 +1,61 @@
+/* gør at man ikke kan se cursoren */
+.typed-cursor {
+    color: white;
+}
+
+.typtyp {
+    margin-bottom: 0;
+}
+
+/* forside tekst og knap */
+.tekstboks {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-tagline {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.hybl {
+    font-size: 4em;
+    color: #23595a;
+}
+
+.knap {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 2em;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.pil {
+    box-sizing: border-box;
+    height:30px;
+    width: 30px;
+    border-style: solid;
+    border-color: #23595a;
+    border-width: 0px 5px 5px 0px;
+    transform: rotate(45deg);
+    
+}
+
+.pilboks {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}

@@ -378,17 +378,41 @@ ul {
 }
 /* ----> DIVIDERS <---- */
 .divider-skewed.petroleum{
-    background: linear-gradient(to left bottom, #F6F6F6 49%, #23595a 50%);
+    background: linear-gradient(to left bottom, white 49%, #23595a 50%);
     height:25px;
     margin-bottom:20px;
+    margin-top:0;
 }
+/* ----> ABOUT US <---- */
+
+.about-us{
+    background-color:white;
+}
+.about div{
+    padding-top:20px;
+    color:#2E2E2E;
+}
+.about-us h2{
+    font-size:1.5em;
+    font-weight:bolder;
+}
+picture{
+    width:100%;
+}
+picture img{
+    width:100%;
+}
+
 
 /* ----> FOOTER <---- */
 footer{
     background-color:#23595a;
     color:white;
     text-align:center;
-    padding:0 0 20px 0;
+    padding:0 0 10px 0;
+}
+footer nav, footer div{
+    margin:10px 0;
 }
 footer ul{
     list-style:none;
@@ -399,4 +423,17 @@ footer li{
 }
 footer a{
     color:white;
+}
+#copyright p{
+    font-size:0.8em;
+    margin:0;
+}
+#copyright{
+    margin:10px 0 0;
+}
+footer .content{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between
 }
